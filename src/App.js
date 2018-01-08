@@ -84,18 +84,18 @@ var year = date.getFullYear();
              data-rotate='[ " documents.", " data.", " workflow." ]'></span>
           </h1>
             <h5>Graphite is built with Blockstack and empowers you to create without giving up your privacy</h5>
-            <button
+            <a href="http://app.graphitedocs.com" target="_blank"><button
               className="btn btn-primary btn-lg"
               id="signin-button"
             >
               Sign In
-            </button>
+            </button></a>
           </div>
           </div>
         </div>
         <div>
           <div className="container">
-            <h3 className="center-align second-section-row">Why it matters where your data is stored</h3>
+            <h3 className="center-align second-section-row">Where your data is stored matters</h3>
             <div className="row">
               <div className="col s12 m6 second-section">
                 <h4>Who owns your data?</h4>
@@ -113,7 +113,7 @@ var year = date.getFullYear();
                   You should.
                 </p>
                 <p>
-                  You do not have to be someone else's commodity. You don't use a serve so that corporations can
+                  You do not have to be someone else's commodity. You don't use a service so that corporations can
                   make money off you or your data.
                 </p>
                 <ul className="stats">
@@ -123,7 +123,7 @@ var year = date.getFullYear();
                 </ul>
                 <p>
                   Take back your data. Access it when you want, store it where you want, and use it how you want. That is your
-                  right as a user of the internet. Your documents are yours and yours alone.
+                  right. Your documents are yours and yours alone.
                 </p>
                 <p>
                   Graphite never has access to your information. Graphite does not store your data. Everything you do in Graphite is
@@ -158,7 +158,7 @@ var year = date.getFullYear();
               <li>Document Formatting</li>
               <li>Indentation (or not)</li>
               <li>Word Counter</li>
-              <li>Auto-Expaning Text Area</li>
+              <li>Auto-Expanding Text Area</li>
               <li>Document Preview</li>
               <li>Print</li>
               <li>Save to PDF</li>

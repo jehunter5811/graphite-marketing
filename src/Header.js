@@ -7,9 +7,9 @@ class Header extends Component {
     return (
       <nav>
         <div className="nav-wrapper">
-          <a href="/" className="brand-logo">Graphite.<img className="pencil" src={pencil} alt="pencil" /></a>
+          <a href="/" className="brand-logo left">Graphite.<img className="pencil" src={pencil} alt="pencil" /></a>
           <ul id="nav-mobile" className="right">
-            <li><a href="#">Sign in</a></li>
+            <li><a href="http://app.graphitedocs.com" target="_blank">Sign in</a></li>
             <li><a href="#features">Features</a></li>
           </ul>
         </div>
