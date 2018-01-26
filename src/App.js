@@ -4,12 +4,16 @@ import './App.css';
 import tweets from './tweets.png';
 import newdoc from './newdoc.png';
 import editdoc from './editdoc.png';
+import sheets from './sheets.png';
 import stats from './stats.png';
+import share from './share.png';
+import retrieve from './retrieve.png';
+import shareddoc from './shareddoc.png';
 import blockstack from './blockstack.png';
 
 class App extends Component {
-  render() {
 
+  render() {
     var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -81,21 +85,41 @@ var year = date.getFullYear();
           <span
              className="txt-rotate"
              data-period="2000"
-             data-rotate='[ " documents.", " data.", " workflow." ]'></span>
+             data-rotate='[ " documents.", " spreadsheets.", " data." ]'></span>
           </h1>
             <h5>Graphite is built with Blockstack and empowers you to create without giving up your privacy</h5>
             <a href="http://app.graphitedocs.com" target="_blank"><button
               className="btn btn-primary btn-lg"
               id="signin-button"
             >
-              Sign In
+              Get Started
+            </button></a>
+            <a href="#more"><button
+              className="btn btn-primary btn-lg grey"
+            >
+              Learn More
             </button></a>
           </div>
           </div>
         </div>
         <div>
-          <div className="container">
-            <h3 className="center-align second-section-row">Where your data is stored matters</h3>
+        <div className="white-section">
+          <div className="container row" id="more">
+            <div className="col copy center-align s12 m6">
+              <img className="splash responsive-img" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/collaboration2_8og0.svg" alt="collaboration" />
+              <p>Make something great today. Create a document. Create a spreadsheet. Share it, get feedback, get work done.</p>
+
+              <img className="splash responsive-img splash-two" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/files1_9ool.svg" alt="documents" />
+              <p>Your documents, your files. They are all yours. Encrypted and only available to others if you say they are.</p>
+            </div>
+            <div className="col s12 m6">
+              <img className="responsive-img big-image" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/working2_ce2b.svg" alt="work" />
+            </div>
+          </div>
+        </div>
+          <div className="grey-section">
+            <div className="container">
+            <h3 className="center-align second-section-row">Where is your data stored?</h3>
             <div className="row">
               <div className="col s12 m6 second-section">
                 <h4>Who owns your data?</h4>
@@ -137,12 +161,13 @@ var year = date.getFullYear();
               <p><i>Microsoft data provided by <a href="http://www.enowsoftware.com/solutions-engine/lies-damn-lies-and-statistics-obfuscate-office-365-numbers" target="_blank">Enow Software.</a></i></p>
             </div>
           </div>
-
+          </div>
         </div>
         <div className="section-three">
           <div className="container">
             <div className="center-align">
             <h1 id="features">Features</h1>
+            <h3 className="center-align">Documents</h3>
             <div className="row">
             <div className="col s12 m6">
             <img className="responsive-img" src={editdoc} alt="computer screen" />
@@ -164,15 +189,42 @@ var year = date.getFullYear();
               <li>Save to PDF</li>
               <li>Save to Word</li>
               <li>Formatting Matched to Export</li>
+              <li>Encrypted Sharing</li>
               <li>And More...</li>
             </ul>
             </div>
+            <h3 className="center-align">Spreadsheets</h3>
+              <div className="col s12 m6">
+              <ul className="stats">
+                <li>Auto-Save</li>
+                <li>Formula Support</li>
+                <li>Export to CSV</li>
+                <li>Save to PDF</li>
+                <li>Import Sheets</li>
+                <li>Print</li>
+                <li>Export in Portrait or Landscape</li>
+                <li>Encrypted Sharing</li>
+                <li>And More...</li>
+              </ul>
+              </div>
+              <div className="col s12 m6">
+              <img className="responsive-img" src={sheets} alt="computer screen" />
+              <h3>Create a new sheet, run calculations, get work done.</h3>
+              </div>
             </div>
           </div>
           </div>
-          <div className="grey-section col s12">
-            <h3>Your Writing Stats at a Glance</h3>
-            <img className="responsive-img" src={stats} alt="statistics" />
+          <div className="grey-section sharing-section col s12">
+            <h3 className="center-align">Encrypted Sharing</h3>
+            <p className="center-align">Share your encrypted files over a decentralized network. Never again worry about any entity removing your access.</p>
+            <p className="center-align">Your files are your files. Graphite never reads, nor has access to, anything you do. You decide who has access to your work, and when.</p>
+            <div className="center-align">
+              <div className="row">
+                <div className="col s12">
+                  <img src={share} alt="sharing docs example" className="responsive-img" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="section-four center-align">
@@ -198,10 +250,11 @@ var year = date.getFullYear();
               <div className="col l4 offset-l2 s12">
 
                 <ul className="right">
-                  <li><a className="grey-text text-lighten-3" href="#!">Sign In</a></li>
+                  <li><a className="grey-text text-lighten-3" href="http://app.graphitedocs.com">Sign In</a></li>
                   <li><a className="grey-text text-lighten-3" href="#features">Features</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Blockstack</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Contact</a></li>
+                  <li><a className="grey-text text-lighten-3" href="http://blockstack.org">Blockstack</a></li>
+                  <li><a className="grey-text text-lighten-3" href="mailto:contact@graphitedocs.com">Contact</a></li>
+                  <li><a className="grey-text text-lighten-3" href="https://twitter.com/graphitedocs">Twitter</a></li>
                 </ul>
               </div>
             </div>
@@ -214,6 +267,7 @@ var year = date.getFullYear();
         </footer>
       </div>
     );
+
   }
 }
 

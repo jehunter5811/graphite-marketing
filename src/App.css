@@ -8,18 +8,49 @@ body {
   font-weight: 300;
 }
 
+.copy {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.splash {
+  height: 150px;
+}
+
+.splash-two {
+  margin-top: 50px;
+}
+
+.copy p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hero-image {
+  background: #fff;
+  padding-top: 50px;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 300;
 }
 
 .main-hero {
-  padding-top: 150px;
+  padding-top: 75px;
   /* padding-bottom: 200px; */
+}
+
+.white-section {
   background: #fff;
 }
 
 .grey-section {
   background-color: #C4C4C4;
+}
+
+.big-image {
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .grey-section h3 {
@@ -65,10 +96,29 @@ h1, h2, h3, h4, h5 {
 .hero-card {
   padding-top: 100px;
   padding-bottom: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: -4px;
+  border-bottom: 0;
+  box-shadow: none;
+
 }
 
 .hero-card h5 {
   margin: 45px auto;
+}
+
+.sharing-section h3{
+  margin: 30px auto;
+}
+
+.sharing-section p {
+  font-size: 20px;
+  margin: 40px auto;
+}
+
+.sharing-section img {
+  margin-bottom: -5px;
 }
 
 .second-section p {
