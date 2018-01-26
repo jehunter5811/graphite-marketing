@@ -105,15 +105,12 @@ var year = date.getFullYear();
         <div>
         <div className="white-section">
           <div className="container row" id="more">
-            <div className="col copy center-align s12 m6">
+            <div className="col copy center-align s12">
               <img className="splash responsive-img" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/collaboration2_8og0.svg" alt="collaboration" />
               <p>Make something great today. Create a document. Create a spreadsheet. Share it, get feedback, get work done.</p>
 
               <img className="splash responsive-img splash-two" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/files1_9ool.svg" alt="documents" />
               <p>Your documents, your files. They are all yours. Encrypted and only available to others if you say they are.</p>
-            </div>
-            <div className="col s12 m6">
-              <img className="responsive-img big-image" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/working2_ce2b.svg" alt="work" />
             </div>
           </div>
         </div>
