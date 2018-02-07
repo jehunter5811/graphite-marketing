@@ -17,6 +17,24 @@ body {
   color: #fff!important;
 }
 
+.about-section {
+  margin-top: 0;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.background-image-about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image:url('https://images.unsplash.com/photo-1452690700222-8a2a1a109f4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dec947ac1899c9a6116a17217d7f8d9c');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
 nav {
   background: #fff!important;
 }
