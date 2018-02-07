@@ -23,6 +23,21 @@ body {
   padding-bottom: 75px;
 }
 
+.profile-img {
+  max-width: 25%;
+}
+
+.team p {
+  font-size: 20px;
+}
+
+.team {
+  margin-top: 75px;
+}
+
+.button-div {
+  margin-top: 50px;
+}
 .background-image-about {
   padding-top: 120px;
   padding-bottom: 120px;

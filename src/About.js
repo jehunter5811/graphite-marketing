@@ -15,14 +15,37 @@ class About extends Component {
           </div>
           <div className="row">
             <div className="col s12 m4 center-align">
-              <h5>Connect anywhere.</h5>
+              <p>Connect anywhere.</p>
             </div>
             <div className="col s12 m4 center-align">
-              <h5>Share anytime.</h5>
+              <p>Share anytime.</p>
             </div>
             <div className="col s12 m4 center-align">
-              <h5>Privacy always.</h5>
+              <p>Privacy always.</p>
             </div>
+          </div>
+          <div>
+            <h1 className="flow-text">Purpose</h1>
+            <p className="flow-text">Graphite serves consumers who want to take back their data,
+            journalists and newsrooms who are looking to avoid censorship, activists trying to organize without fear, and businesses looking for real secuirty.</p>
+            <p className="flow-text">Graphite is 100% distributed just like the technology its built on. But if you'd like to contact us, we'd love to hear from you. You can reach out <a href="/contact">here.</a></p>
+          </div>
+          <div>
+
+            <div className="center-align team">
+              <img className="profile-img circle" alt="founder profile" src="https://preview.ibb.co/fObix6/justin.jpg"/>
+              <h5 className="center-align">Justin Hunter - Founder</h5>
+              <p>Justin has been in the technology industry for the last decade. He began building Graphite to support his other passion—writing. Justin's fiction and non-fiction has been published in numerous literary journals, magazines,
+              and other publications. He hopes Graphite will enable writing, creativity, activistism, and securty for generations to come.</p>
+            </div>
+            <div className="center-align team">
+              <img className="profile-img circle" alt="empty profile" src="https://s3.amazonaws.com/onename/avatar-placeholder.png"/>
+              <p>Are you the next memeber of the Graphite team? Send an <a href="mailto:contact@graphitedocs.com">email</a> if you are interested.</p>
+            </div>
+
+          </div>
+          <div className="button-div center-align">
+            <button className="btn white black-text">Read the blog</button>
           </div>
         </div>
       </div>

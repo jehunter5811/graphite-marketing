@@ -13,7 +13,7 @@ class Footer extends Component {
           <div className="row">
             <div className="col l6 s12">
               <h5 className="white-text">Graphite</h5>
-              <p className="grey-text text-lighten-4">Own your documents.</p>
+              <p className="grey-text text-lighten-4">Own your data.</p>
             </div>
             <div className="col l4 offset-l2 s12">
 
