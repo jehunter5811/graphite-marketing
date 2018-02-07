@@ -8,6 +8,25 @@ body {
   font-weight: 300;
 }
 
+.features-btn {
+  margin-top: 35px;
+}
+
+.btn:hover, .btn:active, .btn:focus, .btn:visited {
+  background: #000!important;
+  color: #fff!important;
+}
+
+nav {
+  background: #fff!important;
+}
+
+.drop {
+  margin-top: -3px;
+  margin-left: 0px!important;
+  font-size: 16px;
+}
+
 .copy {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -26,9 +45,52 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .hero-image {
   background: #fff;
   padding-top: 50px;
+}
+
+.hero-image-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero-image-section i {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.hero-image-content {
+  color: #fff;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.grey-section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.benefits {
+  margin-top: 55px;
+}
+
+p.benefits-p.white-text {
+  font-size: 18px;
+}
+
+.row {
+  margin-bottom: 0!important;
+}
+
+.app-banner {
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -98,14 +160,31 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 200px;
   padding-left: 25px;
   padding-right: 25px;
-  margin-bottom: -4px;
+  margin-bottom: 0;
   border-bottom: 0;
   box-shadow: none;
 
 }
 
 .hero-card h5 {
-  margin: 45px auto;
+  margin-top: 65px;
+  margin-bottom: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.hero-card a button {
+  margin-top: 60px;
+}
+
+.hero-image-section {
+  background-image:url('https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-0.3.5&s=cb7c5760a677fe369d89e55641b5951a');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
 
 .sharing-section h3{
