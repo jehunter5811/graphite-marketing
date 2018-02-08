@@ -19,7 +19,7 @@ class Footer extends Component {
 
               <ul className="right">
                 <li><a className="grey-text text-lighten-3" href="http://app.graphitedocs.com">Sign In</a></li>
-                <li><a className="grey-text text-lighten-3" href="#features">Features</a></li>
+                <li><a className="grey-text text-lighten-3" href="/features">Features</a></li>
                 <li><a className="grey-text text-lighten-3" href="http://blockstack.org">Blockstack</a></li>
                 <li><a className="grey-text text-lighten-3" href="mailto:contact@graphitedocs.com">Contact</a></li>
                 <li><a className="grey-text text-lighten-3" href="https://twitter.com/graphitedocs">Twitter</a></li>

@@ -54,7 +54,7 @@ class Journalism extends Component {
           <h5>Security for editors, journalists, and their sources.</h5>
           <h5>Unidentifiable bylines for those times when anonymity matters.</h5>
           <div className="center-align">
-            <h2>Contact Us to Learn More</h2>
+            <h3>Contact Us to Learn More</h3>
             <a href="mailto:contact@graphitedocs.com"><button className="btn black">Get in touch</button></a>
           </div>
         </div>

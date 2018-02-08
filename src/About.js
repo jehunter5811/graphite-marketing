@@ -28,7 +28,7 @@ class About extends Component {
             <h1 className="flow-text">Purpose</h1>
             <p className="flow-text">Graphite serves consumers who want to take back their data,
             journalists and newsrooms who are looking to avoid censorship, activists trying to organize without fear, and businesses looking for real secuirty.</p>
-            <p className="flow-text">Graphite is 100% distributed just like the technology its built on. But if you'd like to contact us, we'd love to hear from you. You can reach out <a href="/contact">here.</a></p>
+            <p className="flow-text">Graphite is 100% distributed just like the technology its built on. But if you'd like to contact us, we'd love to hear from you. You can reach out <a href="mailto:contact@graphitedocs.com">here.</a></p>
           </div>
           <div>
 
@@ -45,7 +45,7 @@ class About extends Component {
 
           </div>
           <div className="button-div center-align">
-            <a href="https://medium.com/the-lead" target="_blank"><button className="btn white black-text">Read the blog</button></a>
+            <a href="https://medium.com/the-lead" target="_blank"><button className="btn black">Read the blog</button></a>
           </div>
         </div>
       </div>

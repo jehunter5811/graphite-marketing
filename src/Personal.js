@@ -20,21 +20,18 @@ class Personal extends Component {
               <div className="center-align">
                 <i className="material-icons large">account_circle</i>
                 <h5>Your identity, owned and controlled by you, is the key to logging in, storing files, connecting with others, and sharing.</h5>
-                <h5>Create an annonymous ID or create something unique to you. Think of it like the traditional web's domain name system, but for IDs.</h5>
               </div>
             </div>
             <div className="col s12 m4">
               <div className="center-align">
                 <i className="material-icons large">collections_bookmark</i>
                 <h5>Your documents, spreadsheets, and files are securely stored and accessible anywhere, anytime.</h5>
-                <h5>Start writing on your PC at home and finish on your Mac at work. Create a spreadsheet on a friend's computer and be confident that you can access it at home.</h5>
               </div>
             </div>
             <div className="col s12 m4">
               <div className="center-align">
                 <i className="material-icons large">edit</i>
                 <h5>Format your writing the way you want. Write book, write a story, write a presentation. Write anything you want.</h5>
-                <h5>Take complete control over your spreadsheets. Never worry about saving again. Never worry about who might be able to access your personal budget.</h5>
               </div>
               <h5></h5>
             </div>
