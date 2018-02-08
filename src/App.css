@@ -259,6 +259,15 @@ h1, h2, h3, h4, h5 {
   filter: grayscale(100%);
 }
 
+.arch-para p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.arch-para {
+  margin-top: 20px;
+}
+
 .sheet {
   margin-top: 45px;
 }

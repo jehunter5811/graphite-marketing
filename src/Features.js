@@ -87,9 +87,9 @@ class Features extends Component {
               </a>
             </div>
             <div className="col s12 m3">
-              <a href="/creative">
+              <a href="/non-governmental">
               <div className="card hoverable small">
-                <h3 className="center-align">Creative</h3>
+                <h3 className="center-align">NGOs</h3>
               </div>
               </a>
             </div>
