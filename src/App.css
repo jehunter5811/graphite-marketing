@@ -38,6 +38,29 @@ body {
 .button-div {
   margin-top: 50px;
 }
+
+.intro {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.features div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.doc-img {
+  margin-top: 50px;
+}
+
+.docs-features, .share {
+  margin-top: 50px;
+}
+
+.docs-features img {
+  margin-top: 45px;
+}
+
 .background-image-about {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -211,6 +234,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-image-section {
+  padding-top: 125px;
+  padding-bottom: 125px;
   background-image:url('https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-0.3.5&s=cb7c5760a677fe369d89e55641b5951a');
   background-repeat:no-repeat;
   -webkit-background-size:cover;
@@ -218,6 +243,41 @@ h1, h2, h3, h4, h5 {
   -o-background-size:cover;
   background-size:cover;
   background-position:center;
+}
+
+.journo-background {
+  padding-top: 200px!important;
+  padding-bottom: 200px!important;
+  background-image:url('https://images.unsplash.com/photo-1473673645677-83c3c1bd6536?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=13ae746a231388340d7ba096b3b7f2cb');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.sheet {
+  margin-top: 45px;
+}
+
+.march {
+  margin-top: 45px;
+}
+.journo-benefits {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.journo-benefits p {
+  font-size: 20px;
+}
+
+.personal div {
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .sharing-section h3{

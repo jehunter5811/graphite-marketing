@@ -1,64 +1,113 @@
-<div className="section-three">
-  <div className="container">
-    <div className="center-align">
-    <h1 id="features">Features</h1>
-    <h3 className="center-align">Documents</h3>
-    <div className="row">
-    <div className="col s12 m6">
-    <img className="responsive-img" src={editdoc} alt="computer screen" />
-    <h3>Create a new document and write something great.</h3>
+import React, { Component } from 'react';
+import pencil from './pencil.png';
+import './App.css';
+import addContact from './addcontacts.gif';
+import docsPage from './DocsPage.png';
+import sheet from './sheet.png';
+import document from './Document.png';
+import sharing from './sharing.png';
+import Conversation from './Conversations.png';
 
+class Features extends Component {
 
-    </div>
-    <div className="col s12 m6">
-
-
-    <ul className="stats">
-      <li>Auto-Save</li>
-      <li>Document Formatting</li>
-      <li>Indentation (or not)</li>
-      <li>Word Counter</li>
-      <li>Auto-Expanding Text Area</li>
-      <li>Document Preview</li>
-      <li>Print</li>
-      <li>Save to PDF</li>
-      <li>Save to Word</li>
-      <li>Formatting Matched to Export</li>
-      <li>Encrypted Sharing</li>
-      <li>And More...</li>
-    </ul>
-    </div>
-    <h3 className="center-align">Spreadsheets</h3>
-      <div className="col s12 m6">
-      <ul className="stats">
-        <li>Auto-Save</li>
-        <li>Formula Support</li>
-        <li>Export to CSV</li>
-        <li>Save to PDF</li>
-        <li>Import Sheets</li>
-        <li>Print</li>
-        <li>Export in Portrait or Landscape</li>
-        <li>Encrypted Sharing</li>
-        <li>And More...</li>
-      </ul>
-      </div>
-      <div className="col s12 m6">
-      <img className="responsive-img" src={sheets} alt="computer screen" />
-      <h3>Create a new sheet, run calculations, get work done.</h3>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div className="grey-section sharing-section col s12">
-    <h3 className="center-align">Encrypted Sharing</h3>
-    <p className="center-align">Share your encrypted files over a decentralized network. Never again worry about any entity removing your access.</p>
-    <p className="center-align">Your files are your files. Graphite never reads, nor has access to, anything you do. You decide who has access to your work, and when.</p>
-    <div className="center-align">
-      <div className="row">
-        <div className="col s12">
-          <img src={share} alt="sharing docs example" className="responsive-img" />
+  render() {
+    return (
+      <div className="white features">
+        <div className="container intro">
+          <h1 className="">Create, store, share, discuss.</h1>
+        </div>
+        <div className="row container">
+          <div className="col s12 m6">
+            <img className="responsive-img" src={addContact} alt="add a new contact" />
+          </div>
+          <div className="col s12 m6">
+            <h2>Create a curated list of contacts.</h2>
+            <h5>Your list of contacts is encrypted by default.</h5>
+          </div>
+        </div>
+        <div className="container">
+          <h2>Create as many documents as you want and access them across devices.</h2>
+          <h5>Owning your data doesn't mean being locked in a silo. Access your files anywhere, anytime.</h5>
+          <img src={docsPage} className="doc-img hoverable responsive-img" alt="document collection" />
+          <div className="row docs-features">
+            <div className="col s12 m6">
+              <h5>All the features you've come to expect from Google and Microsoft. 100% secure and decentralized.</h5>
+              <div className="">
+              <h5>Auto-Save</h5>
+              <h5>Formatting</h5>
+              <h5>Exporting</h5>
+              <h5>Word Counter</h5>
+              <h5>A whole lot more</h5>
+              </div>
+            </div>
+            <div className="col s12 m6">
+              <img src={document} className="responsive-img" alt="signle document" />
+            </div>
+          </div>
+          <div className="">
+            <h2>Get work done.</h2>
+            <h5>Graphite Sheets allows you to build your budgets, plan, calculate, and more. All without worrying about your privacy.</h5>
+            <img src={sheet} className="sheet responsive-img" alt="spreadsheet" />
+            <div className="row share">
+              <h2 className="center-align">Share and collaborate</h2>
+              <div className="col s12 m6">
+                <img src={sharing} className="responsive-img" alt="Example of sharing docs" />
+              </div>
+              <div className="col s12 m6">
+                <h3>Share sheets and docs in an instant.</h3>
+                <h5>Never worry about your files being read by anyone but your intended recipient. All files are encypted for you and for the contact you share with.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="center-align">
+            <h1>Introducing Conversations</h1>
+            <h5>A new way to communicate, connect, and share.</h5>
+            <h5>End-to-end encryption that Graphite never touches. Your messages, your data, your connection.</h5>
+          </div>
+          <img src={Conversation} className="responsive-img"/>
+        </div>
+        <div className="container">
+          <h2>Learn more.</h2>
+          <h5>Pick a use case.</h5>
+          <div className="row">
+            <div className="col s12 m3">
+              <a href="/personal">
+              <div className="card hoverable small">
+                <h3 className="center-align">Personal</h3>
+              </div>
+              </a>
+            </div>
+            <div className="col s12 m3">
+              <a href="/journalism">
+              <div className="card hoverable small">
+                <h3 className="center-align">Journalism</h3>
+              </div>
+              </a>
+            </div>
+            <div className="col s12 m3">
+              <a href="/creative">
+              <div className="card hoverable small">
+                <h3 className="center-align">Creative</h3>
+              </div>
+              </a>
+            </div>
+            <div className="col s12 m3">
+              <a href="/business">
+              <div className="card hoverable small">
+                <h3 className="center-align">Business</h3>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div className="center-align">
+            <a href="https://app.graphitedocs.com" target="_blank"><button className="btn black">Get started now</button></a>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    );
+  }
+}
+
+export default Features;

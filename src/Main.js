@@ -145,7 +145,7 @@ window.onload = function() {
                 <p className="benefits-p white-text">Chat with friends, colleagues, or classmates with full end-to-end encryption and privacy.</p>
               </div>
               <div className="center-align">
-                <button className="btn features-btn waves-effect waves-light white black-text">Features</button>
+                <a href="/features"><button className="btn features-btn waves-effect waves-light white black-text">Features</button></a>
               </div>
             </div>
           </div>

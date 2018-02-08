@@ -45,7 +45,7 @@ class About extends Component {
 
           </div>
           <div className="button-div center-align">
-            <button className="btn white black-text">Read the blog</button>
+            <a href="https://medium.com/the-lead" target="_blank"><button className="btn white black-text">Read the blog</button></a>
           </div>
         </div>
       </div>

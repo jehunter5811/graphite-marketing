@@ -4,6 +4,9 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import About from './About';
+import Features from './Features';
+import Personal from './Personal';
+import Journalism from './Journalism';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +20,9 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={Main} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/features" component={Features} />
+          <Route exact path="/personal" component={Personal} />
+          <Route exact path="/journalism" component={Journalism} />
           <Footer />
         </div>
       </BrowserRouter>
