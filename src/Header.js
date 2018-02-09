@@ -39,8 +39,8 @@ class Header extends Component {
           <div className={hide}>
             <ul id="dropdown1" className="dropdown-content">
               <li><a href="/about">About</a></li>
-              <li><a href="/journalism">Features</a></li>
-              <li><a href="/non-governmental">FAQ</a></li>
+              <li><a href="/features">Features</a></li>
+              <li><a href="/faq">FAQ</a></li>
               <li><a href="https://app.graphitedocs.com" target="_blank">Sign In</a></li>
             </ul>
           </div>
