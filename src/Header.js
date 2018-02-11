@@ -33,7 +33,7 @@ class Header extends Component {
               <li><a href="/personal">Personal</a></li>
               <li><a href="/journalism">Journalism</a></li>
               <li><a href="/business">Business</a></li>
-              <li><a href="/non-governmental">NGOs</a></li>
+              <li><a href="/non-governmental">NGO</a></li>
             </ul>
           </div>
           <div className={hide}>

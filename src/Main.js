@@ -102,7 +102,7 @@ window.onload = function() {
         <div id="more" className="col s12 m6 hero-image-content">
           <h1 className="center-align">Work anywhere without worrying about your data.</h1>
           <div className="center-align"><i className="material-icons">lock_outline</i><i className="material-icons">share</i><i className="material-icons">all_inclusive</i></div>
-          <h5 className="center-align">All your work, files, and messages—encrypted, shareable, decentalized</h5>
+          <h5 className="center-align">All your work, files, and messages—encrypted, shareable, decentralized</h5>
         </div>
       </div>
       <div>

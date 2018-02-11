@@ -61,7 +61,7 @@ class Features extends Component {
           </div>
         </div>
         <div>
-          <div className="center-align">
+          <div className="center-align container">
             <h1>Introducing Conversations</h1>
             <h5>A new way to communicate, connect, and share.</h5>
             <h5>End-to-end encryption that Graphite never touches. Your messages, your data, your connection.</h5>
@@ -89,7 +89,7 @@ class Features extends Component {
             <div className="col s12 m3">
               <a href="/non-governmental">
               <div className="card hoverable small">
-                <h3 className="center-align">NGOs</h3>
+                <h3 className="center-align">NGO</h3>
               </div>
               </a>
             </div>
