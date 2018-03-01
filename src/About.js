@@ -36,11 +36,11 @@ class About extends Component {
               <img className="profile-img circle" alt="founder profile" src="https://preview.ibb.co/fObix6/justin.jpg"/>
               <h5 className="center-align">Justin Hunter - Founder</h5>
               <p>Justin has been in the technology industry for the last decade. He began building Graphite to support his other passion—writing. Justin's fiction and non-fiction has been published in numerous literary journals, magazines,
-              and other publications. He hopes Graphite will enable writing, creativity, activistism, and securty for generations to come.</p>
+              and other publications. He hopes Graphite will enable writing, creativity, activistism, and security for generations to come.</p>
             </div>
             <div className="center-align team">
               <img className="profile-img circle" alt="empty profile" src="https://s3.amazonaws.com/onename/avatar-placeholder.png"/>
-              <p>Are you the next memeber of the Graphite team? Send an <a href="mailto:contact@graphitedocs.com">email</a> if you are interested.</p>
+              <p>Are you the next member of the Graphite team? Send an <a href="mailto:contact@graphitedocs.com">email</a> if you are interested.</p>
             </div>
 
           </div>
