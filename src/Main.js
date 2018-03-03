@@ -9,7 +9,7 @@ import retrieve from './retrieve.png';
 import shareddoc from './shareddoc.png';
 import blockstack from './blockstack.png';
 import docs from './Documents_Large.png';
-import sheets from './Sheets_Large.png';
+import sheetsLarge from './Sheets_Large.png';
 import contacts from './Contacts_Large.png';
 import convos from './Conversations_Large.png';
 
@@ -114,19 +114,19 @@ window.onload = function() {
       <div className="white-section app-banner">
         <div className="container row">
           <div className="col s6 m3 center-align">
-            <img src={docs} alt="document-icon" />
+            <img className="responsive-img" src={docs} alt="document-icon" />
             <h4 className="flow-text">Documents</h4>
           </div>
           <div className="col s6 m3 center-align">
-            <img src={sheets} alt="document-icon" />
+            <img className="responsive-img" src={sheetsLarge} alt="sheets-icon" />
             <h4 className="flow-text">Sheets</h4>
           </div>
           <div className="col s6 m3 center-align">
-            <img src={contacts} alt="document-icon" />
+            <img className="responsive-img" src={contacts} alt="contacts-icon" />
             <h4 className="flow-text">Contacts</h4>
           </div>
           <div className="col s6 m3 center-align">
-            <img src={convos} alt="document-icon" />
+            <img className="responsive-img" src={convos} alt="conversations-icon" />
             <h4 className="flow-text">Conversations</h4>
           </div>
         </div>
