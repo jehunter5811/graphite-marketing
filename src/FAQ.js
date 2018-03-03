@@ -18,7 +18,7 @@ class FAQ extends Component {
           <h5>What if Blockstack goes away?</h5>
           <p>Blockstack is an open source project, so even if the company goes away, the underlying technology still exists and will continue to operate.</p>
           <h5>What if Graphite goes away?</h5>
-          <p>Graphite is also open source and in the unlikely event that Graphite shuts its doors, the software can be run locally from the source code. This means you do not need a web server to access, create, share, and connect.</p>
+          <p>Graphite is also <a href="https://github.com/Graphite-Docs/graphite" target="_blank">open source</a> and in the unlikely event that Graphite shuts its doors, the software can be run locally from the source code. This means you do not need a web server to access, create, share, and connect.</p>
           <h5>Where is my data actually being stored?</h5>
           <p>This depends on your choices. By default, your data is stored in a dedicated Microsoft Azure Blob.</p>
           <h5>Isn't that centralized?</h5>

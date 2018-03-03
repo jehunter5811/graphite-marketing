@@ -8,6 +8,10 @@ import share from './share.png';
 import retrieve from './retrieve.png';
 import shareddoc from './shareddoc.png';
 import blockstack from './blockstack.png';
+import docs from './Documents_Large.png';
+import sheets from './Sheets_Large.png';
+import contacts from './Contacts_Large.png';
+import convos from './Conversations_Large.png';
 
 
 class Main extends Component {
@@ -110,19 +114,19 @@ window.onload = function() {
       <div className="white-section app-banner">
         <div className="container row">
           <div className="col s6 m3 center-align">
-            <i className="material-icons large blue-text text-darken-2">description</i>
+            <img src={docs} alt="document-icon" />
             <h4 className="flow-text">Documents</h4>
           </div>
           <div className="col s6 m3 center-align">
-            <i className="material-icons large green-text text-lighten-1">grid_on</i>
+            <img src={sheets} alt="document-icon" />
             <h4 className="flow-text">Sheets</h4>
           </div>
           <div className="col s6 m3 center-align">
-            <i className="material-icons large purple-text lighten-3">contacts</i>
+            <img src={contacts} alt="document-icon" />
             <h4 className="flow-text">Contacts</h4>
           </div>
           <div className="col s6 m3 center-align">
-            <i className="material-icons large orange-text accent-2">chat</i>
+            <img src={convos} alt="document-icon" />
             <h4 className="flow-text">Conversations</h4>
           </div>
         </div>
