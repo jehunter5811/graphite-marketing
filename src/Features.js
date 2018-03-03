@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import pencil from './pencil.png';
 import './App.css';
-import addContact from './addcontacts.gif';
-import docsPage from './DocsPage.png';
-import sheet from './sheet.png';
-import document from './Document.png';
-import sharing from './sharing.png';
-import Conversation from './Conversations.png';
+import addContact from './AddNewContact.gif';
+import docsPage from './Docs.png';
+import sheet from './SingleSheet.png';
+import document from './SingleDoc.png';
+import sharing from './Shared.png';
+import Conversation from './ConversationsExample.png';
 
 class Features extends Component {
 
@@ -31,7 +31,7 @@ class Features extends Component {
           <img src={docsPage} className="doc-img hoverable responsive-img" alt="document collection" />
           <div className="row docs-features">
             <div className="col s12 m6">
-              <h5>All the features you've come to expect from Google and Microsoft. 100% secure and decentralized.</h5>
+              <h5>The features you've come to expect from Google and Microsoft. 100% secure and decentralized.</h5>
               <div className="">
               <h5>Auto-Save</h5>
               <h5>Formatting</h5>

@@ -19,8 +19,10 @@ class FAQ extends Component {
           <p>Blockstack is an open source project, so even if the company goes away, the underlying technology still exists and will continue to operate.</p>
           <h5>What if Graphite goes away?</h5>
           <p>Graphite is also <a href="https://github.com/Graphite-Docs/graphite" target="_blank">open source</a> and in the unlikely event that Graphite shuts its doors, the software can be run locally from the source code. This means you do not need a web server to access, create, share, and connect.</p>
+          <h5>What do I need to do to get started?</h5>
+          <p>Just click the sign in button. If you have not previously installed the Blockstack browser, you'll be prompted to do so. That's it. Run the Blockstack browser in the background and sign into Graphite.</p>
           <h5>Where is my data actually being stored?</h5>
-          <p>This depends on your choices. By default, your data is stored in a dedicated Microsoft Azure Blob.</p>
+          <p>This depends on your choices. By default, your data is stored in a dedicated Microsoft Azure Blob. But you can and should connect your Blockstack Browser to your own cloud storage solutions (preferably multiple).</p>
           <h5>Isn't that centralized?</h5>
           <p>Azure is a centralized service, but by encrypting your data, and because your private key is never exposed, Azure cannot access your data. With data replication, there is no single-point of failure and no entity has access to the content of your files.</p>
           <h5>How is my data secured?</h5>

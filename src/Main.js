@@ -4,7 +4,7 @@ import newdoc from './newdoc.png';
 import editdoc from './editdoc.png';
 import sheets from './sheets.png';
 import stats from './stats.png';
-import share from './share.png';
+import share from './Shared.png';
 import retrieve from './retrieve.png';
 import shareddoc from './shareddoc.png';
 import blockstack from './blockstack.png';
